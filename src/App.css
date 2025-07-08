@@ -1,0 +1,109 @@
+.main_container {
+  width: 45vw;
+  height: 60vh;
+  background-color: #01161e;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 3vh;
+  font-family: "Archivo Black";
+  text-align: center;
+  color: var(--accent);
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 4vh 4vw;
+  background-color: #042936;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: var(--light-grey);
+  font-size: 18px;
+}
+
+.todo-item,
+input {
+  width: 100%;
+}
+
+.todos {
+  overflow-y: auto;
+  max-height: 100%;
+  flex: 1;
+}
+
+.todos::-webkit-scrollbar {
+  visibility: hidden;
+  width: 0px;
+}
+
+.todo-item {
+  border-bottom: 1px solid var(--grey);
+  padding: 3vh 2vw;
+}
+
+.left-items {
+  color: var(--light-grey);
+}
+
+.panel {
+  padding: 2vh 2vw;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.options {
+  display: flex;
+  color: var(--light-grey);
+  gap: 10px;
+}
+
+.option {
+  padding: 10px;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+}
+
+.option.selected {
+  border: 1.5px solid var(--accent);
+  border-radius: 10px;
+  color: var(--light-accent);
+  font-weight: 600;
+}
+
+button {
+  color: var(--light-grey);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--light-grey);
+}
+
+/* HOVER EFFECTS  */
+
+button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.option:hover {
+  color: var(--light-accent);
+}
+
+.todo-item:hover {
+  transform: translateX(-5px);
+}
+
+input:hover {
+  padding: 5vh 4vw;
+}
