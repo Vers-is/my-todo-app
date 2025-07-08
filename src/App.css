@@ -107,3 +107,12 @@ button:hover {
 input:hover {
   padding: 5vh 4vw;
 }
+
+/* MEDIA */
+
+@media (max-width:780px){
+  .main_container {
+    width: 100vw;
+    border-radius: 0;
+  }
+}
