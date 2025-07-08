@@ -111,8 +111,36 @@ input:hover {
 /* MEDIA */
 
 @media (max-width:780px){
+  *{
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 32px !important;
+  }
   .main_container {
     width: 100vw;
     border-radius: 0;
   }
+
+  .options {
+  position: fixed;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.panel {
+  padding: 2vh 5vw;
+
+}
+
+.option {
+  color: black;
+  font-weight: 600;
+}
+
+
+
 }
