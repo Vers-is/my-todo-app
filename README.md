@@ -1,6 +1,6 @@
 # SIMPLE TO-DO LIST
 
-I used here *React*, *Vite* and *TypeScrypt*. 
+I used here **React**, **Vite** and **TypeScrypt**. 
 
 ### You can:
 1. Create your tasks
@@ -8,6 +8,8 @@ I used here *React*, *Vite* and *TypeScrypt*.
 3. Sort them
 4. Delete completed ones
 5. See how many of tasks are left
+
+*Mobile version* is also available!
 
 :)
 
