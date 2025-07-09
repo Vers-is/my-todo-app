@@ -116,7 +116,7 @@ input:hover {
   }
 
   .title {
-    font-size: 32px !important;
+    font-size: 40px !important;
   }
   .main_container {
     width: 100vw;
@@ -141,6 +141,16 @@ input:hover {
   font-weight: 600;
 }
 
+ .todo-item {
+    padding-inline: 5vw;
+  }
 
+  input {
+    padding-inline: 5vw;
+  }
+
+  .option.selected {
+    color: var(--accent);
+  }
 
 }
