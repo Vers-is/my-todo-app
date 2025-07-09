@@ -153,4 +153,8 @@ input:hover {
     color: var(--accent);
   }
 
+  .todo-item:hover {
+  transform: translateX(0);
+}
+
 }
